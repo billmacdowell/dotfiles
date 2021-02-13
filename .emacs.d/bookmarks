@@ -1,0 +1,30 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("r"
+ (filename . "/proj/bmacdowell/mosaic_prj/mosaic/digital/rtl/")
+ (front-context-string . "\n    # this mess")
+ (rear-context-string . "count_width\n    ")
+ (position . 4424))
+("m"
+ (filename . "/proj/bmacdowell/mosaic_prj/mosaic/")
+ (front-context-string . "\n    # this mess")
+ (rear-context-string . "count_width\n    ")
+ (position . 4424))
+("a"
+ (filename . "/proj/bmacdowell/mosaic_prj/mosaic/platform")
+ (front-context-string . "\n    # this mess")
+ (rear-context-string . "count_width\n    ")
+ (position . 4424))
+("d"
+ (filename . "/proj/bmacdowell/mosaic_prj/mosaic/digital/dv/")
+ (front-context-string . "\n    # this mess")
+ (rear-context-string . "count_width\n    ")
+ (position . 4424))
+("bb"
+ (filename . "/proj/bmacdowell/mosaic_prj/mosaic/bazel-bin/")
+ (front-context-string . "\n    # this mess")
+ (rear-context-string . "count_width\n    ")
+ (position . 4424))
+)

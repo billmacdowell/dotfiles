@@ -1,0 +1,9 @@
+[submodule ".emacs.d/qgrep"]
+	path = .emacs.d/qgrep
+	url = https://github.com/wstucker/qgrep
+[submodule ".emacs.d/systemrdl-mode"]
+	path = .emacs.d/systemrdl-mode
+	url = https://github.com/paul-donahue/systemrdl-mode.git
+[submodule ".emacs.d/rainbow-delimiters"]
+	path = .emacs.d/rainbow-delimiters
+	url = https://github.com/Fanael/rainbow-delimiters.git
