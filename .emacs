@@ -3,10 +3,16 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(ansi-color-names-vector ["black" "#d55e00" "#009e73" "#f8ec59" "#0072b2" "#cc79a7" "#56b4e9" "white"])
+ '(ansi-color-names-vector
+   ["black" "#d55e00" "#009e73" "#f8ec59" "#0072b2" "#cc79a7" "#56b4e9" "white"])
  '(custom-enabled-themes (quote (wheatgrass)))
- '(custom-safe-themes (quote ("08141ce5483bc173c3503d9e3517fca2fb3229293c87dc05d49c4f3f5625e1df" "26073459251085dc6f1d6f8558eead4224f9c3f0eddccd2ce3ccc0b919d8893b" default)))
+ '(custom-safe-themes
+   (quote
+    ("08141ce5483bc173c3503d9e3517fca2fb3229293c87dc05d49c4f3f5625e1df" "26073459251085dc6f1d6f8558eead4224f9c3f0eddccd2ce3ccc0b919d8893b" default)))
  '(inhibit-startup-screen t)
+ '(package-selected-packages
+   (quote
+    (spice-mode yaml-mode rainbow-mode rainbow-delimiters)))
  '(verilog-auto-lineup (\` declaration))
  '(verilog-auto-newline nil)
  '(verilog-highlight-grouping-keywords t)
@@ -115,11 +121,18 @@
 (global-set-key (kbd "C-x r b") 'bookmark-shell-jump)
 (global-set-key (kbd "C-x r B") 'bookmark-jump)
 
-;; open bazel files in python mode
+;; open bazel files in python-mode
 (add-to-list 'auto-mode-alist '("\\.bzl\\'" . python-mode))
 (add-to-list 'auto-mode-alist '("\\BUILD\\'" . python-mode))
 (add-to-list 'auto-mode-alist '("\\.vams\\'" . verilog-mode))
+
+;; SDC is pretty much TCL
 (add-to-list 'auto-mode-alist '("\\.sdc\\'" . tcl-mode))
+
+;; open spice files in spice-mode
+(add-to-list 'auto-mode-alist '("\\.spice\\'" . spice-mode))
+(add-to-list 'auto-mode-alist '("\\.sp\\'" . spice-mode))
+(add-to-list 'auto-mode-alist '("\\.cir\\'" . spice-mode))
 
 ;; disable line-wrapping in the buffers
 (setq-default truncate-lines t)
