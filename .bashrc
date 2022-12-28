@@ -125,3 +125,5 @@ alias gk='gitk --all&'
 alias h='history'
 alias l='ll'
 alias gt='git log --oneline --graph --decorate --all'
+
+[ "$TERM" = "dumb" ] && export PAGER=cat
