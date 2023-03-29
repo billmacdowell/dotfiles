@@ -127,3 +127,4 @@ alias l='ll'
 alias gt='git log --oneline --graph --decorate --all'
 
 [ "$TERM" = "dumb" ] && export PAGER=cat
+[ "$TERM" = "dumb" ] && export EDITOR=emacs
